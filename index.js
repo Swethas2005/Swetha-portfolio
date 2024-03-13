@@ -1,18 +1,13 @@
 document.getElementById("Download").addEventListener("click", function() {
-    let resumeFilePath = 'docs/Resume.pdf';
+    let resumeFileURL = "https://drive.google.com/file/d/1VLWpDRPlr_JkQfxC6wWUQJrK4zog3jHX/view?usp=drive_link";
 
     let downloadLink = document.createElement('a');
-    downloadLink.href = resumeFilePath;
-  
-    downloadLink.download = 'Resume.pdf.';
-  
+    downloadLink.href = resumeFileURL;
+    
     document.body.append(downloadLink);
   
     downloadLink.click();
-
 });
-
-
 
 
 
