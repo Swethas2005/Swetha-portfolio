@@ -375,6 +375,11 @@ body {
         color: #3E6FF4;
     }
 
+    #projects-holder{
+        display: flex;
+        justify-content: center;
+    }
+
     #projects {
         width: 90%;
         margin:auto;
@@ -382,7 +387,24 @@ body {
         margin-bottom: 20px;
     }
 
+    #projects-2{
+        width: 90%;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     #projects-container{
+        width: 90%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #projects-container-2{
         width: 90%;
         padding: 20px;
         margin: auto;
@@ -408,6 +430,24 @@ body {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     border-radius: 20px;
     padding: 15px;
+    }
+
+    #project-card3{
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 20px;
+    padding: 15px;
+    }
+
+    #project-card4{
+        border-radius: 20px;
+        width: fit-content;
+        height: fit-content;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+        border-radius: 20px;
+        padding: 15px; 
     }
 
     #website-name{
