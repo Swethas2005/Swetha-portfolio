@@ -26,10 +26,10 @@ body {
 #logo-1 {
     width: 120px;
     height: 100%;
+    transition: transform 0.3s ease-in-out;
 }
 
-#logo-1:hover{
-    transition:  all 1s ease;
+#logo-1:hover {
     transform: scale(1.1);
 }
 
@@ -43,6 +43,8 @@ body {
     font-weight: 400;
     padding: 5px 5px 10px 5px;
     color: #000000;
+    position: relative;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 #nav-ele a {
@@ -50,9 +52,8 @@ body {
 }
 
 #nav-ele p:hover {
-    border-bottom: 4px solid #000000;
-    transition:  all 0.1s ease;
-
+    color: #3E6FF4;
+    border-bottom: 4px solid #3E6FF4;
 }
 
 #main-section {
@@ -191,7 +192,7 @@ body {
         height: 51px;
     }
     
-    #Download {
+    /* #Download {
         padding: 20.5px;
         width: 150px;
         color: #fff;
@@ -225,7 +226,26 @@ body {
         background-color: #fff;
         border:2px solid #4070f4 ;
         color: #4070f4;
+    } */
+
+    #Download, #Contact {
+        padding: 20.5px;
+        width: 150px;
+        color: #fff;
+        border: 2px solid transparent;
+        font-size: 20px;
+        background-color: #4070f4;
+        border-radius: 50px;
+        font-weight: 600;
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
+    
+    #Download:hover, #Contact:hover {
+        background-color: #fff;
+        color: #4070f4;
+        border-color: #4070f4;
+    }
+    
     
     #icons {
         width: fit-content;
