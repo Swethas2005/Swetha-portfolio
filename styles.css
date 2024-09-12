@@ -436,7 +436,7 @@ body {
 
     #project-card1{
     border-radius: 20px;
-    width: fit-content;
+    width: min-content;
     height: fit-content;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     border-radius: 20px;
@@ -445,7 +445,7 @@ body {
 
     #project-card2{
     border-radius: 20px;
-    width: fit-content;
+    width:min-content;
     height: fit-content;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     border-radius: 20px;
@@ -454,7 +454,7 @@ body {
 
     #project-card3{
     border-radius: 20px;
-    width: fit-content;
+    width:min-content ;
     height: fit-content;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     border-radius: 20px;
@@ -463,7 +463,7 @@ body {
 
     #project-card4{
         border-radius: 20px;
-        width: fit-content;
+        width: min-content;
         height: fit-content;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
         border-radius: 20px;
